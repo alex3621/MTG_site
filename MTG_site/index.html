@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <script src="./script/validation.js"></script>
+    <title>Index Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-custom fixed-top navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="./index.html">Magic The Gathering</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./info.html">More Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="top-container">
+        <img class ="mtg" src="./images/Magic-The-Gathering-logo.png">
+        <h1><b><i>Magic The Gathering</i></b></h1>
+        <h2><p>A Tabletop trading card game loved by millions world-wide</p></h2>
+        <h2 class="description">
+            <p>This website will be introducing you to my favorite game of all time, Magic the Gathering. Magic the Gathering, also known as MTG, is a sensational trading card game made by Wizards of the Coast. </p>
+        </h2>
+      </div>
+      <div class="middle-container">
+    </section>
+    <section id="intro">
+    <div class="intro">
+      <div class="Intro-header">
+        <h2>Short introduction to the game</h2>
+      </div>
+      <div class="des-row">
+        <img class="desc-img1" src="https://styles.redditmedia.com/t5_3gik2/styles/communityIcon_jyrngowiyvz61.jpg" alt="card-image">
+        <h3>How to play?</h3>
+        <p>Each player draws seven cards to start the game. With starting life total of 20 points. Players can play creature spells that are capable of reducing opponent's life points. The goal is to drop a player
+            to 0 health points to win.
+        </p>
+      </div>
+      <div class="des-row">
+        <img class="desc-img2" src="https://mtgrocks.com/wp-content/uploads/2022/11/Sheoldred-the-Apocalpyse.jpg" alt="A magic the gathering card">
+        <h3>Sample Card</h3>
+        <p>This is a sample MTG creature spell. Top column has the name of creature and mana cost. Middle text box contains the creature ability. And bottom right contains
+            creature's toughness and power.
+        </p>
+      </div>
+      <div class="des-row">
+        <iframe width="560" class="desc-vid" height="315" src="https://www.youtube.com/embed/wif9ppH5JpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>Introduction video!</h3>
+        <p>There are tons of videos teaching you how to play MTG! Here is an example video of the rules in 15 quick minutes.</p>
+      </div>
+    </div>
+    </section>
+      </div>
+      <div class="middle-container2">
+        <h2>Join my newsletter!</h2>
+        <form action="https://httpbin.org/post" method="post" onsubmit="return validation()">
+            <div class="form-group">
+                <label for="useremail">Email address</label>
+                <input type="email" name="email" class="form-control" id="useremail" placeholder="Enter email" >
+                <input name="myname" type="hidden" value="AlexLin">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+
+        </form>
+      </div>
+      <div class="bottom-container">
+        <p>Alex Lin WEB222</p>
+      </div>
+</body>
+</html>
